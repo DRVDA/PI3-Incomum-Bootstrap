@@ -1,0 +1,21 @@
+html{
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+  }
+
+  .FuncTitulos{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+
+  .FuncSubTitulos{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1.75rem;
+  }
+
