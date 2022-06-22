@@ -1,21 +1,65 @@
-html{
-    scroll-behavior: smooth;
-  }
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins';
-  }
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
 
-  .FuncTitulos{
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 2.5rem;
-  }
+.FuncTitulos {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
 
-  .FuncSubTitulos{
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 1.75rem;
-  }
+.FuncSubTitulos {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.75rem;
+}
 
+.FormButtons{
+  margin-top: 5rem;
+  display: flex;
+}
+
+.NovoMembroForm {
+  margin-left: 2rem;
+}
+
+.Btn_Cancelar {
+  background-color: #ffa373;
+  color: #222222;
+  border-style: none;
+  margin-left: 41.6rem;
+}
+
+.Btn_Limpar {
+  background-color: #64c3c7;
+  color: #222222;
+  border-style: none;
+  margin-left: 25px;
+}
+
+.Btn_Criar {
+  background-color: #a46dae;
+  color: #222222;
+  border-style: none;
+  margin-left: 25px;
+  right: 0%;
+}
+
+.FileInputGabe
+{
+  max-width: 16rem;
+  height: 38px;
+}
+
+.DescriItem{
+  height: 10rem;
+  max-width: 16rem;
+}
