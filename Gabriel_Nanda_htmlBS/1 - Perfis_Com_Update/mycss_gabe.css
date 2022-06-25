@@ -26,6 +26,9 @@ body {
   margin-top: 5rem;
   display: flex;
 }
+.FormButtons2{
+  display: flex;
+}
 
 .NovoMembroForm {
   margin-left: 2rem;
@@ -52,7 +55,12 @@ body {
   margin-left: 25px;
   right: 0%;
 }
-
+.Btn_Atualizar {
+  background-color: #222222;
+  color: white;
+  border-style: none;
+  display: flex;
+}
 .FileInputGabe
 {
   max-width: 16rem;
@@ -61,4 +69,14 @@ body {
 
 .DescriItem{
   height: 10rem;
+}
+
+.ProfPic{
+  height: 200px;
+  width: 200px;
+}
+
+.ProfMain{
+  align-items: center;
+  text-align:  middle;
 }
