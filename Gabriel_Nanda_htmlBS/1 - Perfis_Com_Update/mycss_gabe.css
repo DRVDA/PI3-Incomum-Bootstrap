@@ -30,29 +30,22 @@ body {
   display: flex;
 }
 
-.NovoMembroForm {
-  margin-left: 2rem;
-}
-
 .Btn_Cancelar {
   background-color: #ffa373;
   color: #222222;
   border-style: none;
-  margin-left: 41.6rem;
 }
 
 .Btn_Limpar {
   background-color: #64c3c7;
   color: #222222;
   border-style: none;
-  margin-left: 25px;
 }
 
 .Btn_Criar {
   background-color: #a46dae;
   color: #222222;
   border-style: none;
-  margin-left: 25px;
   right: 0%;
 }
 .Btn_Atualizar {
