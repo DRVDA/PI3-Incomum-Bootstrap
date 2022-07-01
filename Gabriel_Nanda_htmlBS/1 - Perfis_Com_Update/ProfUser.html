@@ -1,102 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="PAF" />
-    <meta name="keywords" content="AI2" />
-    <meta name="description" content="Movies" />
-    <title>Profile Utilizador</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="mycss_gabe.css" />
-  </head>
-  <body>
-    <div class="ProfMain ">
-      <div class="col">
-        <div class="row">
-          <div class="col-6 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <div class="e-profile">
-                  <div class="row d-flex flex-column">
-                    <div class="col-12 col-sm-auto mb-3">
-                      <div class="mx-auto" style="width: 140px;">
-                        <div class="d-flex justify-content-center align-items-center rounded" style="height: 140px; background-color: rgb(233, 236, 239);">
-                          <div class="mb-3">
-                            <img src="img/ProfileDefault.png" class="img-fluid ProfPic">
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col d-flex flex-column flex-sm-row justify-content-center mb-3">
-                      <div class="text-center text-sm-left mb-2 mb-sm-0">
-                        <h4 class="pt-sm-2 pb-1 mb-0 text-nowrap">Carlos Carlotos</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tab-content pt-3">
-                    <div class="tab-pane active">
-                      <form class="form" novalidate="">
-                        <div class="row">
-                          <div class="col">
-                            <div class="row">
-                              <div class="col">
-                                <div class="form-group">
-                                  <label>Username</label>
-                                  <input class="form-control" type="text" name="username" placeholder="Username" value=''>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col">
-                                <div class="form-group">
-                                  <label>Email</label>
-                                  <input class="form-control" type="text" placeholder="user@example.com" value=''>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col">
-                                <div class="form-group">
-                                  <label>Telemóvel</label>
-                                  <input class="form-control" type="tel" name="Telemóvel" placeholder="Telemóvel" value=''>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="ProfMain">
-                          <div class="FormButtons col"> 
-                            <button type="submit" class="btn btn-primary Btn_Atualizar">Atualizar</button>
-                          </div>
-                        </div>
-                        </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="PAF" />
+  <meta name="keywords" content="AI2" />
+  <meta name="description" content="Movies" />
+  <title>Profile Utilizador</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="d-flex justify-content-center" style="height: 140px;">
+
+    <img src="img/ProfileDefault.png" class="img-fluid">
+</div>
+  <h4 class="text-center mt-3">Carlos Carlotos</h4>
+
+  <form class="form">
+    <div class="form-group row col-12 mt-3">
+      <label class="col-2 ">Username</label>
+      <input class="form-control col-1" type="text" name="username" placeholder="Username" value=''>
+    </div>
+    <div class="form-group row col-12 mt-3">
+      <label class="col-2 ">Email</label>
+      <input class="form-control col-1" type="text" placeholder="user@example.com" value=''>
+    </div>
+    <div class="form-group row col-12 mt-3">
+      <label class="col-2 ">Telemóvel</label>
+      <input class="form-control col-1" type="number" name="Telemóvel" placeholder="Telemóvel" value=''>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3 ">Atualizar</button>
+  </form>
+
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
