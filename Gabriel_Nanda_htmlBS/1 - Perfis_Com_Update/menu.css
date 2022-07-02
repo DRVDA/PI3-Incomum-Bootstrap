@@ -11,3 +11,11 @@ body {
     width: 200px;
     height: 40px;
 }
+header{
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-family: "Poppins";
+  align-items: flex-start;
+  margin-left: 0px;
+}
