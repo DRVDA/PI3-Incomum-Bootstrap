@@ -1,126 +1,13 @@
-*{
-    background-color: #ffcc00;
-}
-
 html {
     scroll-behavior: smooth;
   }
-  body {
+body {
     margin: 0;
     padding: 0;
     font-family: "Poppins";
+    background-color: #ffcc00;
   }
-  .ima{
+.ima{
     width: 200px;
     height: 40px;
-  }
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    text-decoration: none;
-    color: white;
-    padding-top:50px ;
-}
-.d-flex justify-content-end{
-    padding-right: 200px;
-    display: flex;
-}
-.theme{
-    text-decoration: none;
-    color: white;
-    margin-right: 50px;
-}
-.m{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-.div{
-    display: block;
-}
-
-.menu-links, link{
-    font-style: normal;
-    color: white;
-    font-style: none;
-    text-decoration: none;
-}
-.menu-item{
-    font-style: none;
-    color: white;
-    font-size:large;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 300px;
-}
-.btn{
-    font-style: none;
-    color: white;
-    font-size:30px;
-    font-weight: 500;
-    text-decoration: none;
-
-}
-.cont-info{
-    font-style: none;
-    color: white;
-    font-size:large;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 300px;
-}
-.cont-info{
-    font-style: none;
-    color: white;
-    font-size:large;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 300px;
-}
-.btn btn-secondary dropdown-toggle{
-  background-color: #ffcc00;
-}
-.dropdown-menu{
-    font-family: "Poppins";
-text-decoration: none;
-font-size: large;
-font-weight: 400;
-color: white;
-}
-.a{
-    color: white;
-    font-size: large;
-    font-style: none;
-    text-decoration: none;
-}
-.s-menu-item{
-text-decoration: none;
-}
-.sub-link{
-    color: white;
-    font-size: large;
-    font-style: none;
-    text-decoration: none;
-}
-.link{
-    color: white;
-    font-size: 30px;
-    font-style: none;
-    text-decoration: none;
-}
-.item{
-    color: white;
-    font-size: larger;
-    padding-right: 400px;
-}
-
-.header-footer{
-    padding-left:600px;
-    font-size: 15px;
-    color: white;
-    padding-top: 100px;
-}
-.footer-sm{
-    text-decoration: none;
-    padding-left: 300px;
 }
