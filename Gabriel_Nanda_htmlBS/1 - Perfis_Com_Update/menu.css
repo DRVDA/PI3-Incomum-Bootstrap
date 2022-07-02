@@ -26,9 +26,7 @@ html {
 .div{
     display: block;
 }
-.footer{
-    background-color: white;
-}
+
 .menu-links, link{
     font-style: normal;
     color: white;
@@ -43,13 +41,24 @@ html {
     text-decoration: none;
     margin-left: 300px;
 }
-button {
-font-family: "Poppins";
-text-decoration: none;
-font-size: large;
-font-weight: 500;
-margin-left: 300px;
-background-color: #ffcc00;
+.cont-info{
+    font-style: none;
+    color: white;
+    font-size:large;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 300px;
+}
+.cont-info{
+    font-style: none;
+    color: white;
+    font-size:large;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 300px;
+}
+.btn btn-secondary dropdown-toggle{
+  background-color: #ffcc00;
 }
 .dropdown-menu{
     font-family: "Poppins";
