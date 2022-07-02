@@ -11,11 +11,19 @@ body {
     width: 200px;
     height: 40px;
 }
-header{
-  display: flex;
+.in-comum-menu{
+  font-family: "Poppins";
   color: white;
   font-size: 20px;
-  font-family: "Poppins";
-  align-items: flex-start;
-  margin-left: 0px;
+}
+.main-menu{
+  text-decoration: none;
+}
+.textlinkcolor{
+  color: white;
+}
+.bdecor{
+  border: none;
+  background-color: #ffcc00;
+
 }
