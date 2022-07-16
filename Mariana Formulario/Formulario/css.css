@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #FFCC00;
+}
+
+.btn-primary:hover {
+    background-color: #DEB200;
+}
+
+.bg-amarelo {
+    background-color: #FFCC00;
+    color: white;
+}
+
+body{
+    font-family: Poppins;
+}
